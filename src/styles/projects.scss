@@ -1,0 +1,46 @@
+.projetcs-bg {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 10px;
+  margin-left: 400px;
+  width: 75vw;
+  height: 97vh;
+
+  background: rgba(52, 109, 223, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+}
+
+.proj-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 10px;
+  height: max-content;
+  width: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+
+  background: rgba(114, 102, 102, 0.52);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgba(114, 102, 102, 0.68);
+}
+
+.card-container {
+  display: flex;
+  position: absolute;
+  width: 98%;
+  height: 98%;
+
+  margin-top: 60px;
+  height: 300px;
+  border: 2px solid rebeccapurple;
+}

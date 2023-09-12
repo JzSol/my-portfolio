@@ -1,14 +1,13 @@
 .sidebar {
   display: flex;
-  flex-direction: row;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   height: 98vh;
+  width: 350px;
   color: white;
-  width: 20vw;
   background: rgba(94, 101, 139, 0.41);
   border-radius: 2px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

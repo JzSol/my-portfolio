@@ -1,0 +1,7 @@
+{
+  "buttons": [
+    { "id": 1, "title": "Home", "class": "homebtn" },
+    { "id": 2, "title": "Project", "class": "projectbtn" },
+    { "id": 3, "title": "My CV", "class": "cvbtn" }
+  ]
+}

@@ -1,10 +1,22 @@
 import { Home } from './Home';
-
+import { Projects } from './Projects';
 import '../styles/body.scss';
-export const Body = () => {
+import { MyCv } from './MyCv';
+
+interface Props {
+  page: number;
+}
+
+export const Body: React.FC<Props> = ({ page }) => {
   return (
     <div className='body'>
-      <Home />
+      {page === 1 ? (
+        <Home />
+      ) : page === 2 ? (
+        <Projects />
+      ) : page === 3 ? (
+        <MyCv />
+      ) : null}
     </div>
   );
 };
