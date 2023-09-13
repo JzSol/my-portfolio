@@ -20,11 +20,7 @@ export const Projects: React.FC<Technologies> = () => {
               className='card'
               key={project.id}>
               <h3 className='card-title'>{project.title}</h3>
-              <img
-                className='card-img'
-                alt={project.title}
-                src={`../../public/assets${project.img}`}
-              />
+              <div className={`card-img ${project.img}`}></div>
               <div className='tech tech-1'>React</div>
             </button>
           ))}

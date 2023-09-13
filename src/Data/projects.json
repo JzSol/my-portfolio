@@ -3,7 +3,13 @@
     {
       "id": 1,
       "title": "Drone Store page",
-      "img": "drone.png",
+      "img": "drone-store",
+      "techStack": [{ "1": "React.js", "2": "SCSS" }]
+    },
+    {
+      "id": 2,
+      "title": "Facts app",
+      "img": "facts-app",
       "techStack": [{ "1": "React.js", "2": "SCSS" }]
     }
   ]

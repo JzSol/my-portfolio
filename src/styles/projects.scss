@@ -55,6 +55,7 @@
 
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
 
@@ -92,11 +93,18 @@
   display: flex;
 
   width: 75%;
-  height: 90px;
-  margin-top: 60px;
-  // background-image: url('../img/factsapp.png');
+  height: 80px;
 
-  object-fit: fill;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.drone-store {
+  background-image: url('../img/drone.png');
+}
+.facts-app {
+  background-image: url('../img/factsapp.png');
 }
 
 .tech {
