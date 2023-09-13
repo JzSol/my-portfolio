@@ -13,7 +13,12 @@ export const Body: React.FC<Props> = ({ page }) => {
       {page === 1 ? (
         <Home />
       ) : page === 2 ? (
-        <Projects />
+        <Projects
+          id={0}
+          title={''}
+          img={''}
+          techStack={[]}
+        />
       ) : page === 3 ? (
         <MyCv />
       ) : null}

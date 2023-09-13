@@ -7,7 +7,36 @@ interface Buttons {
   setPage: (id: number) => void;
 }
 
+const calculateAge = (
+  birthYear: number,
+  birthMonth: number,
+  birthDay: number
+): number => {
+  const today = new Date();
+  const todayYear = today.getFullYear();
+  const todayMonth = today.getMonth() + 1;
+  const todayDay = today.getDate();
+
+  let age = todayYear - birthYear;
+
+  // Check if the birth date has occurred this year
+  if (
+    todayMonth < birthMonth ||
+    (todayMonth === birthMonth && todayDay < birthDay)
+  ) {
+    age -= 1;
+  }
+
+  return age;
+};
+
 export const Sidebar: React.FC<Buttons> = ({ setPage }) => {
+  const birthYear = 2002;
+  const birthMonth = 1;
+  const birthDay = 24;
+
+  const age = calculateAge(birthYear, birthMonth, birthDay);
+
   return (
     <div className='sidebar'>
       <div className='header'>
@@ -18,7 +47,7 @@ export const Sidebar: React.FC<Buttons> = ({ setPage }) => {
 
         <section className='about'>
           <div>Jānis Francis Žurilo</div>
-          <div>age: 21</div>
+          <div>Age: {age}</div>
         </section>
 
         <div className='navbar'>

@@ -37,10 +37,125 @@
 .card-container {
   display: flex;
   position: absolute;
-  width: 98%;
-  height: 98%;
+  justify-content: space-around;
+  width: 97%;
+  height: 90%;
 
   margin-top: 60px;
-  height: 300px;
   border: 2px solid rebeccapurple;
+}
+
+.project-title {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  font-size: large;
+  color: aliceblue;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 15%;
+  height: 35%;
+  margin-top: 40px;
+  border: 2px solid rebeccapurple;
+  background-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15px;
+  color: aliceblue;
+
+  font-size: 16px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+}
+
+.card-img {
+  display: flex;
+
+  width: 75%;
+  height: 90px;
+  margin-top: 60px;
+  // background-image: url('../img/factsapp.png');
+
+  object-fit: fill;
+}
+
+.tech {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  color: aliceblue;
+}
+
+.tech-1 {
+  width: 50px;
+  height: 17px;
+
+  background: rgba(39, 180, 234, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(39, 180, 234, 0.16);
+}
+.tech-2 {
+  width: 50px;
+  height: 17px;
+
+  background: rgba(231, 234, 41, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(231, 234, 41, 0.16);
+}
+.tech-3 {
+  width: 50px;
+  height: 17px;
+
+  background: rgba(234, 41, 191, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(234, 41, 191, 0.16);
+}
+.tech-4 {
+  width: 50px;
+  height: 17px;
+
+  background: rgba(41, 234, 50, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(41, 234, 50, 0.16);
+}
+.tech- {
+  width: 50px;
+  height: 17px;
+}
+.tech- {
+  width: 50px;
+  height: 17px;
 }
