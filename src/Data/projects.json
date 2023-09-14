@@ -4,13 +4,47 @@
       "id": 1,
       "title": "Drone Store page",
       "img": "drone-store",
-      "techStack": [{ "1": "React.js", "2": "SCSS" }]
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
+    },
+    {
+      "id": 2,
+      "title": "Space Tourism page",
+      "img": "spaceTourism",
+      "techStack": ["React.js", "SCSS", "HTML", "JSX"]
+    },
+    {
+      "id": 3,
+      "title": "Tic Tac Toe game",
+      "img": "ticTacToe",
+      "techStack": ["React.js", "SCSS", "HTML", "JSX"]
+    },
+    {
+      "id": 4,
+      "title": "Coffe Shop page",
+      "img": "coffeShop",
+      "techStack": ["Angular", "SCSS", "HTML", "RxJS"]
+    }
+  ],
+  "Full-Stack": [
+    {
+      "id": 1,
+      "title": "Todo App",
+      "img": "todo",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 2,
       "title": "Facts app",
-      "img": "facts-app",
-      "techStack": [{ "1": "React.js", "2": "SCSS" }]
+      "img": "factsapp",
+      "techStack": ["React.js", "SCSS", "HTML", "JSX"]
+    }
+  ],
+  "Freelance": [
+    {
+      "id": 1,
+      "title": "Duval Agency",
+      "img": "duval",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     }
   ]
 }

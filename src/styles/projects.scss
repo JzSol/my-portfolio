@@ -19,6 +19,8 @@
   flex-direction: row;
   justify-content: center;
 
+  position: absolute;
+
   margin-top: 10px;
   height: max-content;
   width: 200px;
@@ -42,12 +44,10 @@
   height: 90%;
 
   margin-top: 60px;
-  border: 2px solid rebeccapurple;
 }
 
 .project-title {
   display: flex;
-  align-items: flex-start;
   position: absolute;
   font-size: large;
   color: aliceblue;
@@ -57,19 +57,30 @@
   display: flex;
   position: relative;
   flex-direction: column;
+
   align-items: center;
+  flex-wrap: wrap;
 
   width: 15%;
-  height: 35%;
-  margin-top: 40px;
-  border: 2px solid rebeccapurple;
+  height: 30%;
+  margin-top: 65px;
   background-color: transparent;
   border-radius: 16px;
   cursor: pointer;
 
   &:hover {
-    scale: 1.05;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.2);
   }
+
+  background: rgb(60, 34, 34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  border: none;
+  box-shadow: 0px 4px 20px 0px rgba(255, 111, 97, 0.8);
+
+  transition: box-shadow 0.3s ease;
 }
 
 .card-title {
@@ -103,45 +114,62 @@
 .drone-store {
   background-image: url('../img/drone.png');
 }
-.facts-app {
-  background-image: url('../img/factsapp.png');
+.spaceTourism {
+  background-image: url('../img/spaceTourism.png');
+}
+.ticTacToe {
+  background-image: url('../img/ticTacToe.png');
+}
+.coffeShop {
+  background-image: url('../img/coffeShop.png');
+}
+
+.tech-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 80%;
 }
 
 .tech {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
 
   color: aliceblue;
 }
 
 .tech-1 {
-  width: 50px;
-  height: 17px;
+  width: 60px;
+  height: 20px;
 
-  background: rgba(39, 180, 234, 0.24);
+  background: rgba(39, 179, 234, 0.73);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.6px);
   -webkit-backdrop-filter: blur(6.6px);
   border: 1px solid rgba(39, 180, 234, 0.16);
 }
-.tech-2 {
-  width: 50px;
-  height: 17px;
 
-  background: rgba(231, 234, 41, 0.24);
+.tech-2 {
+  width: 60px;
+  height: 20px;
+
+  background: rgba(139, 142, 11, 0.477);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.6px);
   -webkit-backdrop-filter: blur(6.6px);
-  border: 1px solid rgba(231, 234, 41, 0.16);
+  border: 1px solid rgba(101, 103, 8, 0.58);
 }
 .tech-3 {
-  width: 50px;
-  height: 17px;
+  width: 60px;
+  height: 20px;
 
-  background: rgba(234, 41, 191, 0.24);
+  background: rgba(207, 17, 166, 0.759);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.6px);
@@ -149,10 +177,10 @@
   border: 1px solid rgba(234, 41, 191, 0.16);
 }
 .tech-4 {
-  width: 50px;
-  height: 17px;
+  width: 60px;
+  height: 20px;
 
-  background: rgba(41, 234, 50, 0.24);
+  background: rgba(41, 234, 51, 0.754);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.6px);
@@ -160,10 +188,10 @@
   border: 1px solid rgba(41, 234, 50, 0.16);
 }
 .tech- {
-  width: 50px;
-  height: 17px;
+  width: 60px;
+  height: 20px;
 }
 .tech- {
-  width: 50px;
-  height: 17px;
+  width: 60px;
+  height: 20px;
 }

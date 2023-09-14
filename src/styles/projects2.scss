@@ -1,0 +1,111 @@
+.factsapp {
+  background-image: url('../img/factsapp.png');
+}
+.todo {
+  background-image: url('../img/todo.png');
+}
+
+.card-container2 {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  margin-left: 150px;
+
+  width: 99%;
+  height: 90%;
+
+  margin-top: 430px;
+}
+
+.project-title2 {
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: large;
+  color: aliceblue;
+}
+
+.card2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 15%;
+  height: 30%;
+  margin-top: 65px;
+  margin-right: 60px;
+
+  background-color: transparent;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  background: rgb(60, 34, 34);
+  border-radius: 16px;
+  border: none;
+
+  box-shadow: 0px 4px 20px 0px rgba(255, 193, 7, 0.8);
+  transition: box-shadow 0.3s ease;
+}
+
+//freelance projects
+
+.duval {
+  background-image: url('../img/duval.png');
+}
+
+.card-container3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 290px;
+  width: 99%;
+  height: 90%;
+
+  margin-top: 430px;
+}
+
+.project-title3 {
+  display: flex;
+  font-size: large;
+  color: aliceblue;
+}
+
+.card3 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 15%;
+  height: 30%;
+  margin-top: 65px;
+  margin-right: 60px;
+
+  background-color: transparent;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 25px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  background: rgb(60, 34, 34);
+  border-radius: 16px;
+  border: none;
+
+  box-shadow: 0px 4px 20px 0px rgba(0, 150, 136, 0.8);
+  transition: box-shadow 0.3s ease;
+}
