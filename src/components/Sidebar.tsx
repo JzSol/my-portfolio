@@ -1,5 +1,4 @@
 import '../styles/sidebar.scss';
-import data from '../Data/buttons.json';
 
 interface Buttons {
   id: number;
@@ -46,20 +45,10 @@ export const Sidebar: React.FC<Buttons> = ({ setPage }) => {
         </div>
 
         <section className='about'>
-          <div>Jānis Francis Žurilo</div>
-          <div>Age: {age}</div>
+          <div className='name'>Name: Jānis Francis Žurilo</div>
+          <div className='name'>Age: {age}</div>
+          <div className='name'>Languages: Javascript (TS) </div>
         </section>
-
-        <div className='navbar'>
-          {data.buttons.map((button) => (
-            <button
-              className={button.class}
-              key={button.id}
-              onClick={() => setPage(button.id)}>
-              {button.title}
-            </button>
-          ))}
-        </div>
       </div>
     </div>
   );
