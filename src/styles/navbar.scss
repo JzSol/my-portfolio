@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
 .navbar {
   display: flex;
   width: auto;
@@ -6,4 +11,62 @@
 
   border-bottom: 1px solid #fff;
   background: rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  display: flex;
+  margin-left: 144px;
+  align-items: center;
+
+  background-color: transparent;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+
+  color: #fff;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-right: 64px;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100px;
+  height: 58px;
+  right: 0;
+  margin-right: 144px;
+
+  position: absolute;
+}
+
+.logoBtn {
+  display: flex;
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+}
+
+.linkedin {
+  width: 16px;
+  height: 16px;
+  background-image: url('../img/linkedin.svg');
+}
+
+.github {
+  width: 26px;
+  height: 26px;
+  background-image: url('../img/github.svg');
 }

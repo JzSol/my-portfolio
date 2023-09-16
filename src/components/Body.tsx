@@ -22,16 +22,6 @@ export const Body: React.FC<Props> = ({ page }) => {
       ) : page === 3 ? (
         <MyCv />
       ) : null}
-      {/* <div className='navbar'>
-          {data.buttons.map((button) => (
-            <button
-              className={button.class}
-              key={button.id}
-              onClick={() => setPage(button.id)}>
-              {button.title}
-            </button>
-          ))} */}
-      {/* </div> */}
     </div>
   );
 };
