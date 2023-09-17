@@ -57,6 +57,9 @@
 
   background-color: transparent;
   border: none;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .linkedin {
@@ -66,7 +69,7 @@
 }
 
 .github {
-  width: 26px;
-  height: 26px;
+  width: 25px;
+  height: 25px;
   background-image: url('../img/github.svg');
 }

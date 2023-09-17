@@ -1,51 +1,43 @@
-.projetcs-bg {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  top: 10px;
-  margin-left: 400px;
-  margin-top: 100px;
-  width: 75vw;
-  height: 97vh;
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.ttf');
 }
 
-.proj-title {
+.projetcs-box {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-
   position: absolute;
 
-  margin-top: 10px;
-  height: max-content;
-  width: 200px;
-  font-size: 30px;
-  font-weight: bold;
-  color: whitesmoke;
+  top: 10px;
+  margin-left: 400px;
+  margin-top: 58px;
+  width: 75vw;
+}
 
-  background: rgba(114, 102, 102, 0.52);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(11.5px);
-  -webkit-backdrop-filter: blur(11.5px);
-  border: 1px solid rgba(114, 102, 102, 0.68);
+.allcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
 }
 
 .card-container {
   display: flex;
-  position: absolute;
   justify-content: space-around;
-  width: 97%;
-  height: 90%;
 
-  margin-top: 60px;
+  flex-direction: row;
 }
 
 .project-title {
   display: flex;
-  position: absolute;
   font-size: large;
   color: aliceblue;
+
+  margin-left: 79px;
+
+  color: #fff;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .card {
@@ -56,11 +48,10 @@
   align-items: center;
   flex-wrap: wrap;
 
-  width: 15%;
-  height: 30%;
-  margin-top: 65px;
+  width: 220px;
+  height: 280px;
+
   background-color: transparent;
-  border-radius: 16px;
   cursor: pointer;
 
   &:hover {
@@ -69,11 +60,9 @@
   }
 
   background: rgb(60, 34, 34);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 
   border: none;
-  box-shadow: 0px 4px 20px 0px rgba(255, 111, 97, 0.8);
+  // box-shadow: 0px 4px 20px 0px rgba(255, 111, 97, 0.8);
 
   transition: box-shadow 0.3s ease;
 }
@@ -87,19 +76,13 @@
   color: aliceblue;
 
   font-size: 16px;
-
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.6px);
-  -webkit-backdrop-filter: blur(5.6px);
 }
 
 .card-img {
-  display: flex;
-
-  width: 75%;
-  height: 80px;
+  width: 100%;
+  height: 55%;
+  background: url('../img/ticTacToe.png'),
+    lightgray -2976.6px -1202.24px / 1590% 1188.608% no-repeat;
 
   background-size: contain;
   background-repeat: no-repeat;
