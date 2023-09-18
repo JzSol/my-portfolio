@@ -23,7 +23,7 @@ export const Projects: React.FC<Technologies> = () => {
               <h3 className='card-title'>{project.title}</h3>
               <section className='tech-box'>
                 {project.techStack.map((tech, i) => (
-                  <div className={`tech tech-${i + 33}`}>{tech}</div>
+                  <div className={`tech-${i + 1}`}>{tech}</div>
                 ))}
               </section>
             </button>

@@ -4,25 +4,25 @@
       "id": 1,
       "title": "Drone Store page",
       "img": "drone-store",
-      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
+      "techStack": ["SCSS", "React.js", "Tsx/TS", "HTML"]
     },
     {
       "id": 2,
       "title": "Space Tourism page",
       "img": "spaceTourism",
-      "techStack": ["React.js", "SCSS", "HTML", "JSX"]
+      "techStack": ["SCSS", "React.js", "Tsx/TS", "HTML"]
     },
     {
       "id": 3,
       "title": "Tic Tac Toe game",
       "img": "ticTacToe",
-      "techStack": ["React.js", "SCSS", "HTML", "JSX"]
+      "techStack": ["SCSS", "React.js", "Tsx/TS", "HTML"]
     },
     {
       "id": 4,
       "title": "Coffe Shop page",
       "img": "coffeShop",
-      "techStack": ["Angular", "SCSS", "HTML", "RxJS"]
+      "techStack": ["SCSS", "Angular", "Tsx/TS", "HTML"]
     }
   ],
   "Full-Stack": [
