@@ -9,7 +9,10 @@ export const App = () => {
 
   return (
     <div className='App'>
-      <Navbar />
+      <Navbar
+        page={page}
+        setPage={setPage}
+      />
       <Sidebar
         id={0}
         name={''}

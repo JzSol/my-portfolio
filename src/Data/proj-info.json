@@ -1,0 +1,28 @@
+{
+  "info": [
+    {
+      "id": 1,
+      "title": "Drone store App",
+      "link": "https://drone-store.netlify.app/",
+      "github": "https://github.com/JzSol/drone_store"
+    },
+    {
+      "id": 2,
+      "title": "Space Tourism Website",
+      "link": "https://jzsol.github.io/space-tourism-website/#",
+      "github": "https://github.com/JzSol/space-tourism-website"
+    },
+    {
+      "id": 3,
+      "title": "tic tac toe app",
+      "link": "https://jzsol.github.io/my_tictactoe/",
+      "github": "https://github.com/JzSol/my_tictactoe"
+    },
+    {
+      "id": 4,
+      "title": "Angular Coffe Shop App",
+      "link": "https://angular-coffe-shop.netlify.app/",
+      "github": "https://github.com/JzSol/veloce-ang"
+    }
+  ]
+}

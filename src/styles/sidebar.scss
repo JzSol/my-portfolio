@@ -4,18 +4,20 @@
 }
 
 .sidebar {
+  position: absolute;
+
   display: flex;
   margin-top: 108px;
   flex-direction: column;
   margin-left: 74px;
+  width: 255px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 98vh;
-  width: 262px;
+  height: auto;
   color: white;
 }
 

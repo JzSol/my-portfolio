@@ -1,14 +1,30 @@
 .cv-bg {
   display: flex;
-  position: absolute;
-  top: 10px;
-  margin-left: 400px;
-  width: 75vw;
-  height: 97vh;
+  flex-direction: column;
 
-  background: rgba(81, 191, 34, 0.1);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.9px);
-  -webkit-backdrop-filter: blur(4.9px);
+  // position: absolute;
+
+  top: 10px;
+  margin-left: 330px;
+  margin-top: 58px;
+  width: 75vw;
+  height: 94vh;
+
+  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.15);
+}
+
+.inprogress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+
+  color: #3d3d3d;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+
+  color: #ea0000;
+  opacity: 88%;
 }

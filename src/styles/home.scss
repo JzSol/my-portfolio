@@ -1,4 +1,13 @@
 .bg-red {
   display: flex;
-  position: absolute;
+  flex-direction: column;
+
+  top: 10px;
+  margin-left: 330px;
+  margin-top: 58px;
+  width: 75vw;
+  height: 94vh;
+
+  background-color: aliceblue;
+  background-color: rgba(240, 248, 255, 0.15);
 }

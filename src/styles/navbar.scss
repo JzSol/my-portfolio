@@ -41,6 +41,14 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &:hover {
+    bottom: 0;
+    border-bottom: 3px solid #f8f8f855;
+  }
+}
+
+.active {
+  border-bottom: 3px solid #f8f8f8b1;
 }
 
 .socials {

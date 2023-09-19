@@ -30,40 +30,44 @@ export const Projects: React.FC<Technologies> = () => {
           ))}
         </section>
       </section>
-      {/* 
-      <section className='card-container2'>
-        <h2 className='project-title2'>Full-Stack Projects:</h2>
-        {projectsData['Full-Stack'].map((project, index) => (
-          <button
-            className='card2'
-            key={project.id}>
-            <h3 className='card-title'>{project.title}</h3>
-            <div className={`card-img ${project.img}`}></div>
-            <section className='tech-box'>
-              {project.techStack.map((tech, i) => (
-                <div className={`tech tech-${i + 1}`}>{tech}</div>
-              ))}
-            </section>
-          </button>
-        ))}
+
+      <section className='allcontainer2'>
+        <h2 className='project-title'>Full-Stack Projects:</h2>
+        <section className='card-container2'>
+          {projectsData['Full-Stack'].map((project, index) => (
+            <button
+              className='card'
+              key={project.id}>
+              <div className={`card-img ${project.img}`}></div>
+              <h3 className='card-title'>{project.title}</h3>
+              <section className='tech-box'>
+                {project.techStack.map((tech, i) => (
+                  <div className={`tech tech-${i + 1}`}>{tech}</div>
+                ))}
+              </section>
+            </button>
+          ))}
+        </section>
       </section>
 
-      <section className='card-container3'>
-        <h2 className='project-title3'>Freelance Project:</h2>
-        {projectsData.Freelance.map((project, index) => (
-          <button
-            className='card3'
-            key={project.id}>
-            <h3 className='card-title'>{project.title}</h3>
-            <div className={`card-img ${project.img}`}></div>
-            <section className='tech-box'>
-              {project.techStack.map((tech, i) => (
-                <div className={`tech tech-${i + 1}`}>{tech}</div>
-              ))}
-            </section>
-          </button>
-        ))}
-      </section> */}
+      <section className='allcontainer3'>
+        <h2 className='project-title'>Freelance Project:</h2>
+        <section className='card-container3'>
+          {projectsData.Freelance.map((project, index) => (
+            <button
+              className='card'
+              key={project.id}>
+              <div className={`card-img ${project.img}`}></div>
+              <h3 className='card-title'>{project.title}</h3>
+              <section className='tech-box'>
+                {project.techStack.map((tech, i) => (
+                  <div className={`tech tech-${i + 1}`}>{tech}</div>
+                ))}
+              </section>
+            </button>
+          ))}
+        </section>
+      </section>
     </div>
   );
 };
