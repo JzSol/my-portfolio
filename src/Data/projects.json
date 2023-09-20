@@ -27,13 +27,13 @@
   ],
   "Full-Stack": [
     {
-      "id": 1,
+      "id": 5,
       "title": "Todo App",
       "img": "todo",
       "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
-      "id": 2,
+      "id": 6,
       "title": "Facts app",
       "img": "factsapp",
       "techStack": ["React.js", "SCSS", "HTML", "JSX"]
@@ -41,7 +41,7 @@
   ],
   "Freelance": [
     {
-      "id": 1,
+      "id": 7,
       "title": "Duval Agency",
       "img": "duval",
       "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]

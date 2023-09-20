@@ -5,9 +5,18 @@ import { MyCv } from './MyCv';
 
 interface Props {
   page: number;
+  isInfoOpened: boolean;
+  setIsInfoOpened: (isInfoOpened: boolean) => void;
+  selectedCard: number;
+  setSelectedCard: (selectedCard: number) => void;
 }
 
-export const Body: React.FC<Props> = ({ page }) => {
+export const Body: React.FC<Props> = ({
+  page,
+  isInfoOpened,
+  setIsInfoOpened,
+  setSelectedCard,
+}) => {
   return (
     <div className='body'>
       {page === 1 ? (
@@ -18,6 +27,9 @@ export const Body: React.FC<Props> = ({ page }) => {
           title={''}
           img={''}
           techStack={[]}
+          isInfoOpened={isInfoOpened}
+          setIsInfoOpened={setIsInfoOpened}
+          setSelectedCard={setSelectedCard}
         />
       ) : page === 3 ? (
         <MyCv />

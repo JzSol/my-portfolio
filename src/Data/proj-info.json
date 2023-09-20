@@ -23,6 +23,23 @@
       "title": "Angular Coffe Shop App",
       "link": "https://angular-coffe-shop.netlify.app/",
       "github": "https://github.com/JzSol/veloce-ang"
+    },
+    {
+      "id": 5,
+      "title": "Todo Full-Stack app",
+      "link": "https://jzsol.github.io/todo_frontend/",
+      "github": "https://github.com/JzSol/todo_frontend"
+    },
+    {
+      "id": 6,
+      "title": "Facts app",
+      "link": "https://fact-app-jzsol.netlify.app"
+    },
+    {
+      "id": 7,
+      "title": "Duval Agency",
+      "link": "https://duvalagency.lat/",
+      "description": "The Duval Agency web development project is a platform designed to elevate digital marketing experiences. This project seamlessly blends cutting-edge design with robust functionality, offering visitors an immersive journey through the agency's services and portfolio. With a sleek and intuitive user interface, Duval Agency's website sets new standards in the realm of creative marketing solutions. Explore the future of digital marketing with Duval Agency."
     }
   ]
 }

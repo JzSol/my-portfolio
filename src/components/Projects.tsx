@@ -7,9 +7,21 @@ interface Technologies {
   title: string;
   img: string;
   techStack: string[];
+  isInfoOpened: boolean;
+  setIsInfoOpened: (isInfoOpened: boolean) => void;
+  setSelectedCard: (selectedCard: number) => void;
 }
 
-export const Projects: React.FC<Technologies> = () => {
+export const Projects: React.FC<Technologies> = ({
+  isInfoOpened,
+  setIsInfoOpened,
+  setSelectedCard,
+}) => {
+  const handleCLick = (id: number) => {
+    setSelectedCard(id);
+    setIsInfoOpened(true);
+  };
+
   return (
     <div className='projetcs-box'>
       <section className='allcontainer'>
@@ -18,7 +30,8 @@ export const Projects: React.FC<Technologies> = () => {
           {projectsData.Frontend.map((project, index) => (
             <button
               className='card'
-              key={project.id}>
+              key={project.id}
+              onClick={() => handleCLick(project.id)}>
               <div className={`card-img ${project.img}`}></div>
               <h3 className='card-title'>{project.title}</h3>
               <section className='tech-box'>
@@ -37,7 +50,8 @@ export const Projects: React.FC<Technologies> = () => {
           {projectsData['Full-Stack'].map((project, index) => (
             <button
               className='card'
-              key={project.id}>
+              key={project.id}
+              onClick={() => handleCLick(project.id)}>
               <div className={`card-img ${project.img}`}></div>
               <h3 className='card-title'>{project.title}</h3>
               <section className='tech-box'>
@@ -56,7 +70,8 @@ export const Projects: React.FC<Technologies> = () => {
           {projectsData.Freelance.map((project, index) => (
             <button
               className='card'
-              key={project.id}>
+              key={project.id}
+              onClick={() => handleCLick(project.id)}>
               <div className={`card-img ${project.img}`}></div>
               <h3 className='card-title'>{project.title}</h3>
               <section className='tech-box'>
