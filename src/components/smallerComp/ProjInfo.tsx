@@ -10,6 +10,7 @@ type Props = {
   link: string;
   description: string;
   github?: string;
+  techStack: string[];
 };
 
 export const ProjInfo: React.FC<Props> = ({
@@ -36,7 +37,9 @@ export const ProjInfo: React.FC<Props> = ({
                 <p className='description'>{info.description}</p>
 
                 <section className='box'>
-                  <div className='tech-1'>gsfdfg</div>
+                  {info.techStack.map((tech: string, i: number) => (
+                    <div className={`techinfo-${i + 1}`}>{tech}</div>
+                  ))}
                 </section>
 
                 <section className='btn-section'>
@@ -46,6 +49,7 @@ export const ProjInfo: React.FC<Props> = ({
                     Webpage
                     <div className='logo-webpage' />
                   </button>
+
                   {info.github && (
                     <button
                       className='source git'
@@ -53,6 +57,17 @@ export const ProjInfo: React.FC<Props> = ({
                         info.github && handleButtonClick(info.github)
                       }>
                       Github
+                      <div className='logo-github' />
+                    </button>
+                  )}
+
+                  {info.github2 && (
+                    <button
+                      className='source git'
+                      onClick={() =>
+                        info.github && handleButtonClick(info.github2)
+                      }>
+                      Backend code
                       <div className='logo-github' />
                     </button>
                   )}

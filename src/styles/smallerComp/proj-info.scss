@@ -20,6 +20,12 @@
   background: rgba(0, 0, 0, 0.8);
 
   z-index: 3;
+  @media (max-width: 1620px) {
+    height: 60%;
+  }
+  @media (max-width: 588px) {
+    height: 70%;
+  }
 }
 
 .closebtn {
@@ -80,14 +86,20 @@
   font-weight: 500;
   line-height: normal;
   margin-top: 0;
+  margin-bottom: 0;
 
-  height: 18vh;
+  height: 16vh;
+  @media (max-width: 1486px) {
+    height: 34vh;
+  }
+  @media (max-width: 588px) {
+    height: 50vh;
+  }
 }
 
 .box {
   display: flex;
   flex-wrap: wrap;
-  // align-items: center;
 
   width: 100%;
 }
@@ -95,13 +107,12 @@
 .btn-section {
   display: flex;
   justify-content: flex-end;
-  // height: 100px;
   bottom: 0;
+  flex-wrap: wrap;
 }
 
 .source {
   display: flex;
-  // height: 30%;
   cursor: pointer;
   padding: 6px 22px;
 
@@ -155,4 +166,60 @@
   width: 22px;
   height: 21px;
   margin-left: 12px;
+}
+
+// here it should be able to close/open
+
+.techinfo-1,
+.techinfo-2,
+.techinfo-3,
+.techinfo-4 {
+  margin-right: 8px;
+}
+
+.techinfo-1,
+.techinfo-2,
+.techinfo-3,
+.techinfo-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
+  border-radius: 4px;
+  width: auto;
+  height: 20px;
+  margin-bottom: 28px;
+}
+
+.techinfo-1 {
+  width: 75px;
+  color: #ffe297;
+  border: 2.75px solid #ffe297;
+  background: rgba(255, 226, 151, 0.2);
+}
+
+.techinfo-2 {
+  width: 75px;
+  color: #a8defc;
+  border: 2.75px solid #a8defc;
+  background: rgba(168, 222, 252, 0.2);
+}
+
+.techinfo-3 {
+  width: 75px;
+  color: #feb7ff;
+  border: 2.75px solid #feb7ff;
+  background: rgba(254, 183, 255, 0.2);
+}
+
+.techinfo-4 {
+  width: 75px;
+  color: #bdfaa7;
+  border: 2.75px solid #bdfaa7;
+  background: rgba(189, 250, 167, 0.2);
 }

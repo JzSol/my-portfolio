@@ -4,42 +4,56 @@
       "id": 1,
       "title": "Drone store App",
       "link": "https://drone-store.netlify.app/",
-      "github": "https://github.com/JzSol/drone_store"
+      "github": "https://github.com/JzSol/drone_store",
+      "description": "The Drone Store App is a specialized e-commerce platform built using React.js. It offers a curated selection of drones, complete with customizable camera and battery options. The app leverages TypeScript and employs TSX syntax to ensure type safety and code quality. Primarily utilizing functional components, the application makes extensive use of React hooks such as useState and useEffect. Additionally, a real-time counter feature enhances the user experience. Styling is accomplished through SCSS, allowing for modular and maintainable design.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 2,
       "title": "Space Tourism Website",
       "link": "https://jzsol.github.io/space-tourism-website/#",
-      "github": "https://github.com/JzSol/space-tourism-website"
+      "github": "https://github.com/JzSol/space-tourism-website",
+      "description": "Explore celestial destinations with our Space Tourism Agency app, built in React.js and TypeScript. Utilizing functional components and hooks like useState and useEffect, the app offers real-time updates and interactive features. SCSS animations enhance the user interface, making your journey visually captivating.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 3,
       "title": "tic tac toe app",
       "link": "https://jzsol.github.io/my_tictactoe/",
-      "github": "https://github.com/JzSol/my_tictactoe"
+      "github": "https://github.com/JzSol/my_tictactoe",
+      "description": "The Tic-Tac-Toe game was an engaging learning project developed in the early stages of my React.js journey. Built using JSX syntax, the game employs 'lifting state up' as its primary state management strategy. Styling is accomplished through SCSS, adding a polished look to this classic game.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 4,
       "title": "Angular Coffe Shop App",
       "link": "https://angular-coffe-shop.netlify.app/",
-      "github": "https://github.com/JzSol/veloce-ang"
+      "github": "https://github.com/JzSol/veloce-ang",
+      "description": "The Angular Coffee Shop App is a recent project showcasing best practices in Angular development, including the use of RxJS for reactive programming. The app employs SCSS for styling and leverages Angular's lazy loading for optimized DOM manipulation and server-side rendering. Angular animations are also integrated, adding dynamic user interactions. This project was instrumental in securing a 3-month internship with Salesforce.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 5,
       "title": "Todo Full-Stack app",
       "link": "https://jzsol.github.io/todo_frontend/",
-      "github": "https://github.com/JzSol/todo_frontend"
+      "github": "https://github.com/JzSol/todo_frontend",
+      "github2": "https://github.com/JzSol/todo_backend",
+      "description": "The Todo Full-Stack App is a comprehensive web development project that pairs a React.js frontend with a Node.js and PostgreSQL backend. The app served as a gateway to exploring Next.js and honed my skills in API development and testing, utilizing Postman for the latter. Deployment was achieved through Heroku, marking an exciting milestone in my web development journey.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 6,
       "title": "Facts app",
-      "link": "https://fact-app-jzsol.netlify.app"
+      "link": "https://fact-app-jzsol.netlify.app",
+      "description": "The Facts App is a React-based application that integrates with Supabase for a seamless backend experience. Users can create, rank, and categorize facts, offering a dynamic and interactive platform. SCSS is employed for styling, enhancing the app's visual appeal.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     },
     {
       "id": 7,
       "title": "Duval Agency",
       "link": "https://duvalagency.lat/",
-      "description": "The Duval Agency web development project is a platform designed to elevate digital marketing experiences. This project seamlessly blends cutting-edge design with robust functionality, offering visitors an immersive journey through the agency's services and portfolio. With a sleek and intuitive user interface, Duval Agency's website sets new standards in the realm of creative marketing solutions. Explore the future of digital marketing with Duval Agency."
+      "description": "The Duval Agency is a freelance project built on React, optimized for seamless virtual DOM rendering and best SEO practices. Hosted on a custom domain via Namecheap, the site employs Email.js for streamlined user application reviews and contact management. Additionally, it integrates the Instagram API to showcase the company's social presence.",
+      "techStack": ["React.js", "SCSS", "HTML", "Tsx/TS"]
     }
   ]
 }

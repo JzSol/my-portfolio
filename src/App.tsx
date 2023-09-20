@@ -14,13 +14,13 @@ export const App = () => {
     <div className='App'>
       {isInfoOpened && (
         <ProjInfo
-          // isInfoOpened={isInfoOpened}
           setIsInfoOpened={setIsInfoOpened}
           selectedCard={selectedCard}
           id={0}
           title={''}
           link={''}
           description={''}
+          techStack={[]}
         />
       )}
       <Navbar
